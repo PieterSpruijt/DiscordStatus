@@ -10,14 +10,14 @@ let info = [
         largeImageText: "250+ guilds",
         buttons: [
             {
-            label: "Invite",
-            url: "https://dsc.gg/essentials"
-        },
-        {
-            label: "Support Server",
-            url: "https://discord.gg/Y8y4qPKNW4"
-        }
-    ]
+                label: "Invite",
+                url: "https://discord.com/oauth2/authorize?client_id=775055776854441985&scope=identify+email+guilds.join+guilds+bot+applications.commands&permissions=8&redirect_uri=http%3A%2F%2F178.63.247.126%3A53134&response_type=code"
+            },
+            {
+                label: "Support Server",
+                url: "https://discord.gg/Y8y4qPKNW4"
+            }
+        ]
     },
     {
         details: "Verified Bot",
@@ -26,14 +26,14 @@ let info = [
         largeImageText: "150+ commands",
         buttons: [
             {
-            label: "Invite",
-            url: "https://dsc.gg/essentials"
-        },
-        {
-            label: "Support Server",
-            url: "https://discord.gg/Y8y4qPKNW4"
-        }
-    ]
+                label: "Invite",
+                url: "https://discord.com/oauth2/authorize?client_id=775055776854441985&scope=identify+email+guilds.join+guilds+bot+applications.commands&permissions=8&redirect_uri=http%3A%2F%2F178.63.247.126%3A53134&response_type=code"
+            },
+            {
+                label: "Support Server",
+                url: "https://discord.gg/Y8y4qPKNW4"
+            }
+        ]
     },
     {
         details: "Verified Bot",
@@ -42,14 +42,14 @@ let info = [
         largeImageText: "250+ guilds",
         buttons: [
             {
-            label: "Invite",
-            url: "https://dsc.gg/essentials"
-        },
-        {
-            label: "Support Server",
-            url: "https://discord.gg/Y8y4qPKNW4"
-        }
-    ]
+                label: "Invite",
+                url: "https://discord.com/oauth2/authorize?client_id=775055776854441985&scope=identify+email+guilds.join+guilds+bot+applications.commands&permissions=8&redirect_uri=http%3A%2F%2F178.63.247.126%3A53134&response_type=code"
+            },
+            {
+                label: "Support Server",
+                url: "https://discord.gg/Y8y4qPKNW4"
+            }
+        ]
     },
     {
         details: "Verified Bot",
@@ -58,14 +58,14 @@ let info = [
         largeImageText: "150+ commands",
         buttons: [
             {
-            label: "Invite",
-            url: "https://dsc.gg/essentials"
-        },
-        {
-            label: "Support Server",
-            url: "https://discord.gg/Y8y4qPKNW4"
-        }
-    ]
+                label: "Invite",
+                url: "https://discord.com/oauth2/authorize?client_id=775055776854441985&scope=identify+email+guilds.join+guilds+bot+applications.commands&permissions=8&redirect_uri=http%3A%2F%2F178.63.247.126%3A53134&response_type=code"
+            },
+            {
+                label: "Support Server",
+                url: "https://discord.gg/Y8y4qPKNW4"
+            }
+        ]
     }
 ]
 
@@ -79,4 +79,4 @@ rpc.on('ready', () => {
     }, 5000);
 });
 
-rpc.login({ clientId: "775055776854441985" })
+rpc.login({ clientId: "775055776854441985" });
